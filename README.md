@@ -47,7 +47,7 @@ signature = LearnosityAuth::Signature.new(credentials).generate
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'learnosity_auth'
+gem 'learnosity_auth', :github => 'masteryconnect/learnosity-auth'
 ```
 
 And then execute:
