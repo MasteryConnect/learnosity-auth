@@ -22,8 +22,7 @@ In order to use several of Learnosity's APIs, you will need to generate a signat
      * In ruby: `Time.now.strftime("%Y%m%d-%H%M")`  
 
 
-```
-#!ruby
+```ruby
 require 'LearnosityAuth'
 
 # to create a signature you need five items: consumer_key, consumer_secret, your domain, the user_id, and a timestamp
